@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 424,
+ "instance": "RG300_424.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1171,
+ "slack": 4,
+ "base_certificate": "certs/RG300_424_lb1166_clique_zs.json",
+ "base_sha256": "2b2a3a631973e18189e44ea2d2cf905f25b7ccf0d83cc7444930af7c1b5367ea",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 1151,
+ "published_ub": 1196,
+ "best_ub": 1196,
+ "solver_info": "riders [65, 96, 98, 142] (d=[1, 9, 8, 1]) can never share a period and must all run within carriers [51, 77, 103] plus 4 carrier-free period(s) (18 periods < 19) (after 2 rounds) [slack 4]"
+}

@@ -1,0 +1,28 @@
+{
+ "set": "RG300",
+ "id": 188,
+ "instance": "RG300_188.rcp",
+ "claim": "block_gap_tiling",
+ "lb": 381,
+ "base_certificate": "certs/bases/RG300_188_lb380_aclp.json",
+ "base_sha256": "717387288831ecca8b158215fbb6ff02a21fb75b42a70a69e54399db9483592e",
+ "refuting_component": [
+  4,
+  8,
+  22,
+  63,
+  113,
+  156,
+  158,
+  172,
+  211,
+  235,
+  239,
+  274,
+  290,
+  296
+ ],
+ "published_lb": 380,
+ "published_ub": 381,
+ "method": "slack-budget tiling with R-precedence and block-gap rules: T = 380, slack s = T - sum d*y = 0; the listed closed set of fractional activities admits no layout whose periods' deficits sum to <= s (exhaustive search)"
+}

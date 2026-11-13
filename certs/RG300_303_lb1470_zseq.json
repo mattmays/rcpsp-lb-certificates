@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 303,
+ "instance": "RG300_303.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1470,
+ "slack": 5,
+ "base_certificate": "certs/RG300_303_lb1464_clique_zs.json",
+ "base_sha256": "8a65696d3ed62e0568716f54cf2dbc275d41b4e99469304d0ffb3f2d390a9700",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 1462,
+ "published_ub": 1476,
+ "best_ub": 1476,
+ "solver_info": "rider 132 (d=10) has no feasible carrier block (round 1) [slack 5]"
+}

@@ -1,0 +1,15 @@
+{
+ "set": "RG300",
+ "id": 397,
+ "instance": "RG300_397.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 858,
+ "base_certificate": "certs/RG300_397_lb857_clique_zs.json",
+ "base_sha256": "b90deab4d85e0903afef0333b5e6930b8d2917bbd7d16da12da20a3f4e3319e3",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 816,
+ "published_ub": 865,
+ "best_ub": 865,
+ "solver_info": "rider 109 (d=3) has no feasible carrier block (round 2)"
+}

@@ -1,0 +1,14 @@
+{
+ "set": "RG300",
+ "id": 270,
+ "instance": "RG300_270.rcp",
+ "claim": "mirror_floor",
+ "lb": 1024,
+ "mirror_instance": "certs/mirror/RG300_270_mirror.rcp",
+ "mirror_sha256": "fc5aef8032404f8b5f126c5faafe4141c971cef30dc8ba4b86370652a610a7a7",
+ "mirror_claim": "certs/mirror/RG300_270_mirror_lb1024_blockgap.json",
+ "mirror_claim_sha256": "a9712fbdb0fc59297827d637552a2a1a9d7864946f8bec1e8f2949254177f7ac",
+ "mirror_checker": "verify_blockgap3.py",
+ "published_lb": 976,
+ "published_ub": 1051
+}

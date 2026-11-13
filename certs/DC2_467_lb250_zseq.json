@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 467,
+ "instance": "rcpspdc467.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 250,
+ "slack": 0,
+ "base_certificate": "certs/DC2_467_lb249_clique_zs.json",
+ "base_sha256": "383bdb0216d47d0cca6434d41c9b072a02d26bcb1a85894566f8596b46e44f94",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 249,
+ "published_ub": 250,
+ "best_ub": 250,
+ "solver_info": "rider 66 (d=8) has no feasible carrier block (round 2)"
+}

@@ -1,0 +1,15 @@
+{
+ "set": "RG300",
+ "id": 143,
+ "instance": "RG300_143.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1414,
+ "slack": 2,
+ "base_certificate": "certs/RG300_143_lb1411_clique_zs.json",
+ "base_sha256": "2f1e98b9acbb911b904a8c4c6bbf4c3a92f2604ac2b3bfdcdf691d8926f58945",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 1411,
+ "published_ub": 1416,
+ "solver_info": "clique world below the table LB (max clique 1411, T = 1413, slack 2); scratch/s8/cqw/cqw.py"
+}

@@ -1,0 +1,21 @@
+{
+ "set": "DC2",
+ "id": 554,
+ "instance": "rcpspdc554.rcp",
+ "claim": "block_gap_tiling",
+ "lb": 172,
+ "base_certificate": "certs/DC2_554_lb171_aclp.json",
+ "base_sha256": "0f98bda83048b00863b2db23b7c728cb51c3cb4ac367a788fc7cdf465a62d1d4",
+ "refuting_component": [
+  10,
+  13,
+  43,
+  44,
+  50,
+  84,
+  85
+ ],
+ "published_lb": 158,
+ "published_ub": 172,
+ "method": "scratch/s47/tileblk_dc2.py (= tools/tileblk.py, set-aware path) at T = 171, s = 0: comp0 REFUTED"
+}

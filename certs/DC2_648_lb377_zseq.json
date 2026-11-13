@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 648,
+ "instance": "rcpspdc648.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 377,
+ "slack": 2,
+ "base_certificate": "certs/DC2_648_lb374_clique_zs.json",
+ "base_sha256": "3cc9650e4dec6ca4726532ea482ff38a746a168d10e5f05141d54d5102e7ddb4",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 374,
+ "published_ub": 380,
+ "best_ub": 380,
+ "solver_info": "rider 87 (d=4) has no feasible carrier block (round 1) [slack 2]"
+}

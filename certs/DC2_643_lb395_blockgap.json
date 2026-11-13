@@ -1,0 +1,26 @@
+{
+ "set": "DC2",
+ "id": 643,
+ "instance": "rcpspdc643.rcp",
+ "claim": "block_gap_tiling",
+ "lb": 395,
+ "base_certificate": "certs/DC2_643_lb394_aclp.json",
+ "base_sha256": "d4564f671b6f0abe65013303a19dd263a0c0169b7f5b16679c4cdf20d8c9b0fb",
+ "refuting_component": [
+  20,
+  22,
+  23,
+  26,
+  30,
+  34,
+  35,
+  39,
+  51,
+  52,
+  64,
+  67
+ ],
+ "published_lb": 394,
+ "published_ub": 395,
+ "method": "scratch/s47/tileblk_dc2.py at T = 394: REFUTED"
+}

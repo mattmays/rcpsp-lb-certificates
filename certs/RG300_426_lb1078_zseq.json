@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 426,
+ "instance": "RG300_426.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1078,
+ "slack": 3,
+ "base_certificate": "certs/RG300_426_lb1074_clique_zs.json",
+ "base_sha256": "80dac3a9b70d871ea8e069b127f210613bc9ed9646cbdb9b1d4ef436a93050b0",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 1040,
+ "published_ub": 1094,
+ "best_ub": 1094,
+ "solver_info": "rider 99 (d=9) has no feasible carrier block (round 2) [slack 3]"
+}

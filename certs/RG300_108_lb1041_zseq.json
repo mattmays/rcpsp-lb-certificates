@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 108,
+ "instance": "RG300_108.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1041,
+ "slack": 4,
+ "base_certificate": "certs/RG300_108_lb1036_clique_zs.json",
+ "base_sha256": "f08007f565bf7fd4196ad15dba29c1ff93cba9e64d8f59a7be9b84dc617cc09f",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 1007,
+ "published_ub": 1076,
+ "best_ub": 1076,
+ "solver_info": "rider 65 (d=8) has no feasible carrier block (round 2) [slack 4]"
+}

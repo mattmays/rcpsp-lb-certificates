@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 391,
+ "instance": "RG300_391.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 822,
+ "slack": 3,
+ "base_certificate": "certs/RG300_391_lb818_clique_zs.json",
+ "base_sha256": "95fc4f9496eef9b27974b40ba000f88a1a0e450603a7208bacd6c0ad6f492071",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 779,
+ "published_ub": 837,
+ "best_ub": 837,
+ "solver_info": "rider 170 (d=4) has no feasible carrier block (round 1) [slack 3]"
+}

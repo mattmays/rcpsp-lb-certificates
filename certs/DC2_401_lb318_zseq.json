@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 401,
+ "instance": "rcpspdc401.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 318,
+ "slack": 1,
+ "base_certificate": "certs/DC2_401_lb316_clique_zs.json",
+ "base_sha256": "584fa4418eddb7292207789b158962a86b606b9ff70a6ea118d3e5b7c3ce00f0",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 315,
+ "published_ub": 318,
+ "best_ub": 318,
+ "solver_info": "riders 65 and 69 both need the single carrier-free period but cannot run together (after 2 rounds) [slack 1]"
+}

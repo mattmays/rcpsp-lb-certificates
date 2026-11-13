@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 406,
+ "instance": "rcpspdc406.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 289,
+ "slack": 3,
+ "base_certificate": "certs/DC2_406_lb285_clique_zs.json",
+ "base_sha256": "ff8234d38728f4196ea3f1785bee85a775db337c2f4dd5823aeb4fc08460e82c",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 281,
+ "published_ub": 293,
+ "best_ub": 293,
+ "solver_info": "riders [26, 64] (d=[10, 4]) can never share a period and must all run within carriers [52] plus 3 carrier-free period(s) (13 periods < 14) (after 3 rounds) [slack 3]"
+}

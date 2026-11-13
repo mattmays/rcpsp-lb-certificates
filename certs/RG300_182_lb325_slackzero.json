@@ -1,0 +1,19 @@
+{
+ "set": "RG300",
+ "id": 182,
+ "instance": "RG300_182.rcp",
+ "claim": "slack_budget_tiling",
+ "lb": 325,
+ "base_certificate": "certs/RG300_182_lb324_aclp.json",
+ "base_sha256": "466da98c6c269171c6f13db5d22f864cb8309d92031e3b73172412a78980b7e9",
+ "refuting_component": [
+  268,
+  272,
+  273,
+  280,
+  286
+ ],
+ "published_lb": 323,
+ "published_ub": 325,
+ "method": "slack-budget tiling: T = 324, slack s = T - sum d*y = 1/2; the listed closed set of fractional activities admits no non-preemptive layout whose periods' deficits 1 - w(running set) sum to <= s (exhaustive search)"
+}

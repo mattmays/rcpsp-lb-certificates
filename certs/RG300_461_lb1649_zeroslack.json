@@ -1,0 +1,19 @@
+{
+ "set": "RG300",
+ "id": 461,
+ "instance": "RG300_461.rcp",
+ "claim": "zero_slack_tiling",
+ "lb": 1649,
+ "base_certificate": "certs/RG300_461_lb1648_aclp.json",
+ "base_sha256": "0a3631c3b51ae286c9e6b3b0a5b9144b53509e772443a71b32c5239b4e545473",
+ "refuting_component": [
+  98,
+  99,
+  117,
+  143
+ ],
+ "published_lb": 1647,
+ "published_ub": 1649,
+ "best_ub": 1649,
+ "method": "zero-slack tiling: sum d*y = L integral; every period of a length-L schedule carries weight 1; the listed component of the fractional activities admits no non-preemptive weight-1 tiling (exhaustive event-driven search)"
+}

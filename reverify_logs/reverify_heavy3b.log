@@ -1,0 +1,21 @@
+START 2026-11-05 05:07:11 UTC rows 3 skip 0
+CHECKER verify.py f23bab42413d1ce6b6e77bad3e8510b549af024cd5ea208acad3988ce23f782c
+CHECKER verify_antichain.py a271cba02fbf7b2ec1ae91aa6cf379ef54810f8ca88de9fb26482d3d2cdd0a9b
+CHECKER verify_antichain2.py fbb9922b4d5de11b4d807043e4b00797d8114bf5c92e663aa968e7534a964e37
+CHECKER verify_blockgap.py 1fdeb93eede4cf037521f5fc5828a4c9fddb623bd3ecd1415afd08e050258fde
+CHECKER verify_blockgap2.py 5b1bab8cd80dfe3db4539fc02656703f7fb751f5fce83f8b40cd9a99e335a9c9
+CHECKER verify_blockgap2_search.c 8c0974c86726844788ada895c9b686de6e9d03bf04c51b2dc3d766d2a4736933
+CHECKER verify_blockgap3.py e5484a97a8eef3b6df0f270bc3e69306a9e56816c674ee6298c12a8549885af0
+CHECKER verify_blockgap3_search.c 83059c9f9db25c48af930f0e6413ac1f26167498f11838101f355ca7d98f7965
+CHECKER verify_clique.py 1205296e17bfd3bc88422bd9cc35bd8c6c5b6ff388149a551e42977d6f483956
+CHECKER verify_dff.py e1d6059eecb826776109fae4495e965644e1d92761c1322260347045c7e1cdeb
+CHECKER verify_mirror.py 2b20f713a8c25b767b4943c9f46440351251fbcd96343f5a40d5709b34b64494
+CHECKER verify_seqprop.py c814ec5ddeb7be9deefc42936d3ad57791624babb07b1421b5eeca1de064bca8
+CHECKER verify_seqprop2.py 0e81d349702b82518fbcd6271229d77a6f5b71a0dd4147c638d155b8f8b9b84e
+CHECKER verify_slackzero.py 129320763040e427496dece025e91171941fc1e2f411fb5e2faa0c2716a5ca67
+CHECKER verify_vpdff.py ca24b21166a73a0d1aeb3585ae5aaa69866d9aa7831022516a172f91d143f02f
+CHECKER verify_zeroslack.py bcd865948568da84377d2edc3b3ada44d0f823f17d9bbd7153771ec5a65514ad
+LB DC2_625 271/292 new=289 [mirror] certs/DC2_625_lb289_mirror.json sha256:00e23a31c2ac3ff2 482s ROW_OK :: VERIFIED LB>=289 via mirror (102 activities, 799 arcs reversed; verify_blockgap3.py on DC2_625_mirror.rcp: VERIFIED LB>=289) published_lb=271 IMPROVES published_ub=292
+LB RG300_270 976/1051 new=1024 [mirror] certs/RG300_270_lb1024_mirror.json sha256:8d770c0914f50e55 1405s ROW_OK :: VERIFIED LB>=1024 via mirror (302 activities, 5183 arcs reversed; verify_blockgap3.py on RG300_270_mirror.rcp: VERIFIED LB>=1024) published_lb=976 IMPROVES published_ub=1051
+LB RG300_383 609/675 new=631 [mirror] certs/RG300_383_lb631_mirror.json sha256:68bf2fa336901b90 132s ROW_OK :: VERIFIED LB>=631 via mirror (302 activities, 3420 arcs reversed; verify_blockgap2.py on RG300_383_mirror.rcp: VERIFIED LB>=631) published_lb=609 IMPROVES published_ub=675
+SUMMARY 3/3 floors VERIFIED at the manifest value 05:40:49 UTC

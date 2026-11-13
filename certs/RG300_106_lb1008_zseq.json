@@ -1,0 +1,14 @@
+{
+ "set": "RG300",
+ "id": 106,
+ "instance": "RG300_106.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1008,
+ "base_certificate": "certs/RG300_106_lb1007_clique_zs.json",
+ "base_sha256": "4bb25f14dcc4a3e1775ec8061c029dbcc26f617285fce9ebd5bfd806e54273c7",
+ "mode": "propagation",
+ "published_lb": 981,
+ "published_ub": 1025,
+ "best_ub": 1025,
+ "solver_info": "rider 194 (d=1) has no feasible carrier block (round 1)"
+}

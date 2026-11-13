@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 407,
+ "instance": "rcpspdc407.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 317,
+ "slack": 1,
+ "base_certificate": "certs/DC2_407_lb315_clique_zs.json",
+ "base_sha256": "fccb84b6bbb3dd0499b25b54d2fbab6911a447662ae06170632be76bc6927e03",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 316,
+ "published_ub": 317,
+ "best_ub": 317,
+ "solver_info": "rider 58 (d=3) has no feasible carrier block (round 1) [slack 1]"
+}

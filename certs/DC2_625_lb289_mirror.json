@@ -1,0 +1,14 @@
+{
+ "set": "DC2",
+ "id": 625,
+ "instance": "rcpspdc625.rcp",
+ "claim": "mirror_floor",
+ "lb": 289,
+ "mirror_instance": "certs/mirror/DC2_625_mirror.rcp",
+ "mirror_sha256": "a160d2f6a8b44feefe547c4470dfb63b4f2e952ac0dd1cf892b676298340f298",
+ "mirror_claim": "certs/mirror/DC2_625_mirror_lb289_blockgap.json",
+ "mirror_claim_sha256": "729ae3417969a5759419815f74b5bba6c1f10a360c4fded66c3547e872faa671",
+ "mirror_checker": "verify_blockgap3.py",
+ "published_lb": 271,
+ "published_ub": 292
+}

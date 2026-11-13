@@ -1,0 +1,26 @@
+{
+ "set": "RG300",
+ "id": 234,
+ "instance": "RG300_234.rcp",
+ "claim": "block_gap_tiling",
+ "lb": 775,
+ "base_certificate": "certs/RG300_234_lb772_aclp.json",
+ "base_sha256": "2d47529046e692277ee3b73f9ff9c1e6cd8c3ac11e92b73322e7c38220a1b752",
+ "refuting_component": [
+  5,
+  66,
+  70,
+  76,
+  106,
+  114,
+  157,
+  179,
+  209,
+  241,
+  258,
+  282
+ ],
+ "published_lb": 772,
+ "published_ub": 782,
+ "method": "C block-gap search (tools/s47/bgc_prep_dc2.py) on a DFF base (tools/s48/dffbase.py) at T = 774: REFUTED"
+}

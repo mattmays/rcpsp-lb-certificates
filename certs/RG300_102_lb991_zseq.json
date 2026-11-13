@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 102,
+ "instance": "RG300_102.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 991,
+ "slack": 1,
+ "base_certificate": "certs/RG300_102_lb989_clique_zs.json",
+ "base_sha256": "4d3f058a18af05f758e443e7d57b8f5c1f9a8432e489da1ef24945414b4cf1a0",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 972,
+ "published_ub": 1023,
+ "best_ub": 1023,
+ "solver_info": "rider 254 (d=2) has no feasible carrier block (round 1) [slack 1]"
+}

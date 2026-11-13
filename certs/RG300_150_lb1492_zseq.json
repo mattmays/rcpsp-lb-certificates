@@ -1,0 +1,15 @@
+{
+ "set": "RG300",
+ "id": 150,
+ "instance": "RG300_150.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1492,
+ "base_certificate": "certs/RG300_150_lb1491_clique_zs.json",
+ "base_sha256": "085d341fa7b615034c59b7e3366467b7731d5a6ec909a0a2baec0626e2b5ea6b",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 1483,
+ "published_ub": 1493,
+ "best_ub": 1493,
+ "solver_info": "riders [63, 112] (d=[3, 7]) all run inside carrier 53 (d=9) and are pairwise incompatible (after 3 rounds)"
+}

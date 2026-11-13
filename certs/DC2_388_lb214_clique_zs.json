@@ -1,0 +1,1 @@
+{"set": "DC2", "id": 388, "instance": "rcpspdc388.rcp", "claim": "clique", "lb": 214, "activities": [5, 6, 8, 11, 12, 15, 16, 18, 20, 21, 22, 25, 26, 29, 30, 31, 33, 36, 38, 39, 41, 44, 49, 53, 54, 58, 60, 61, 63, 66, 67, 68, 71, 72, 75, 76], "destructive_T": null, "source": "certs/DC2_388_lb214_clique.json", "published_lb": 209, "published_ub": 215}

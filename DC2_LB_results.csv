@@ -1,0 +1,76 @@
+# Author(s);Matt Mays
+# Reference;Unpublished results, 2026 (certificate-based lower bounds; each bound has a certificate file and an independent checker, available on request)
+# Date;2026/11/04
+# Hardware / software;2 vCPU (shared), 3 GB RAM, Linux x86_64; Python 3 + C
+# Stop criteria;certificate-based lower bounds (dual feasible functions, cliques / node packing, feasible-set LP, tiling and sequence-propagation refutations), Oct 24 - Nov 4 2026 (CPU time not tracked, Time column = 0)
+# Submission date;2026/11/10
+ID;Type;Value;Time;Solution
+201;lower bound;156;0;
+229;lower bound;178;0;
+375;lower bound;126;0;
+382;lower bound;212;0;
+383;lower bound;214;0;
+384;lower bound;177;0;
+385;lower bound;185;0;
+386;lower bound;192;0;
+387;lower bound;204;0;
+388;lower bound;215;0;
+389;lower bound;207;0;
+390;lower bound;212;0;
+401;lower bound;318;0;
+406;lower bound;289;0;
+407;lower bound;317;0;
+408;lower bound;259;0;
+446;lower bound;260;0;
+453;lower bound;121;0;
+456;lower bound;93;0;
+460;lower bound;109;0;
+466;lower bound;292;0;
+467;lower bound;250;0;
+551;lower bound;156;0;
+552;lower bound;189;0;
+553;lower bound;159;0;
+554;lower bound;172;0;
+555;lower bound;182;0;
+556;lower bound;155;0;
+557;lower bound;139;0;
+558;lower bound;152;0;
+559;lower bound;172;0;
+560;lower bound;146;0;
+561;lower bound;267;0;
+562;lower bound;274;0;
+563;lower bound;283;0;
+564;lower bound;243;0;
+565;lower bound;283;0;
+566;lower bound;267;0;
+567;lower bound;254;0;
+568;lower bound;278;0;
+569;lower bound;275;0;
+570;lower bound;301;0;
+582;lower bound;397;0;
+583;lower bound;363;0;
+584;lower bound;385;0;
+585;lower bound;408;0;
+586;lower bound;439;0;
+588;lower bound;351;0;
+589;lower bound;407;0;
+590;lower bound;361;0;
+621;lower bound;271;0;
+622;lower bound;277;0;
+624;lower bound;298;0;
+625;lower bound;289;0;
+626;lower bound;277;0;
+629;lower bound;290;0;
+630;lower bound;306;0;
+633;lower bound;142;0;
+635;lower bound;145;0;
+637;lower bound;135;0;
+639;lower bound;136;0;
+642;lower bound;411;0;
+643;lower bound;395;0;
+644;lower bound;389;0;
+645;lower bound;417;0;
+647;lower bound;382;0;
+648;lower bound;377;0;
+649;lower bound;353;0;
+650;lower bound;355;0;

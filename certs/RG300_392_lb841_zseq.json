@@ -1,0 +1,16 @@
+{
+ "set": "RG300",
+ "id": 392,
+ "instance": "RG300_392.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 841,
+ "slack": 4,
+ "base_certificate": "certs/RG300_392_lb836_clique_zs.json",
+ "base_sha256": "2ddc80326e98511672dc6dd0f436cad0781933f9717aaf712aa9525d59f041a3",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 800,
+ "published_ub": 848,
+ "best_ub": 848,
+ "solver_info": "rider 148 (d=6) has no feasible carrier block (round 1) [slack 4]"
+}

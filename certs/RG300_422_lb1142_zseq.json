@@ -1,0 +1,21 @@
+{
+ "set": "RG300",
+ "id": 422,
+ "instance": "RG300_422.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 1142,
+ "slack": 5,
+ "base_certificate": "certs/RG300_422_lb1136_clique_zs.json",
+ "base_sha256": "9753516a5290b7bed742d55b52147d4d7a5cdd1a6e417cf3d8094090a2f96f7a",
+ "mode": "propagation",
+ "shave_rider": null,
+ "hole_riders": [
+  37,
+  99,
+  116
+ ],
+ "published_lb": 1115,
+ "published_ub": 1153,
+ "best_ub": 1153,
+ "solver_info": "riders [37, 99, 116] (need [3, 2, 1] holes) pairwise cannot share a period: 6 > 5 carrier-free periods (after 2 rounds) [slack 5, hole budget]"
+}

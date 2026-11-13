@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 629,
+ "instance": "rcpspdc629.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 290,
+ "slack": 0,
+ "base_certificate": "certs/DC2_629_lb289_clique_zs.json",
+ "base_sha256": "2520930bb9befcdf5493930d1b4a969ec9b1694570d53fecdd88c3d729befab7",
+ "mode": "propagation",
+ "shave_rider": null,
+ "published_lb": 261,
+ "published_ub": 291,
+ "best_ub": 291,
+ "solver_info": "rider 26 (d=10) has no feasible carrier block (round 2) [slack 0]"
+}

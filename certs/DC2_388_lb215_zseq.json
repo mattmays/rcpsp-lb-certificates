@@ -1,0 +1,16 @@
+{
+ "set": "DC2",
+ "id": 388,
+ "instance": "rcpspdc388.rcp",
+ "claim": "zero_slack_sequence",
+ "lb": 215,
+ "slack": 0,
+ "base_certificate": "certs/DC2_388_lb214_clique_zs.json",
+ "base_sha256": "1b7f7456e5be6f77598d7f267c576edd4043f6f8777149a7e586f9721078b134",
+ "mode": "shave",
+ "shave_rider": 50,
+ "published_lb": 209,
+ "published_ub": 215,
+ "best_ub": 215,
+ "solver_info": "shaving on rider 50 (11 blocks, every case refuted)"
+}
