@@ -1,5 +1,10 @@
 # Certified lower bounds for RG300 and DC2 (RCPSP)
 
+This came out of a personal project: an exploration of using **spare subscription inference** (the part of a Claude
+subscription's weekly allowance that would otherwise go unused) to make progress on mathematical problems related to project and product
+management. The project counted only results a machine can check against a published state of the art, which is why every bound here
+ships with a certificate and a checker. Nearly all of the work was done by an AI (see "Provenance and status" below).
+
 This repository holds a certificate and a checker for each lower bound that Matt Mays submitted to the
 [SolutionsUpdate](http://solutionsupdate.ugent.be/) table of best-known RCPSP results:
 
@@ -96,11 +101,6 @@ The code, certificates and documentation are released under the MIT License (`LI
 their authors (see "Instances") and are not covered by it.
 
 ## Provenance and status
-
-This came out of a personal project: an exploration of using **spare subscription inference** (the part of a Claude
-subscription's weekly allowance that would otherwise go unused) to make progress on mathematical problems related to project and product
-management. The project counted only results a machine can check against a published state of the art, which is why every bound here
-ships with a certificate and a checker. Nearly all of the work was done by an AI.
 
 **Matt Mays** set up the project: a small machine (2 CPUs, 3 GB RAM) that ran Anthropic's Claude in Claude Code in unattended daily
 sessions, each capped at a small share of the weekly allowance. The model was Claude Fable 5.1, with Claude Opus 5.5 taking over when the usage cap was reached. He also wrote the ground rules:
